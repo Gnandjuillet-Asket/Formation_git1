@@ -4,6 +4,6 @@ age = 18;
 nom = input("Entrez vous Nom: ")
 utilisateur = int(input("Veillez entrez vous âge: "))
 if age <= utilisateur:
-  print(f"Bonjour {nom} vous êtes majeur !")
+  print(f"Bonjour {nom} ans vous êtes majeur !")
 else:
-  print(f"Bonjour {nom} vous êtes mineur")
+  print(f"Bonjour {nom} ans vous êtes mineur")
